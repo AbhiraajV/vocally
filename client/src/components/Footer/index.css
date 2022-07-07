@@ -1,0 +1,39 @@
+.Footer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-size: 0.9rem;
+    color: var(--gray1);
+    font-family: var(--font-body);
+}
+@media screen and (max-width:900px) {
+    .Footer{
+        flex-direction: column !important;
+        
+    }
+    .CTA{
+        align-items: center !important;
+        gap: 3rem !important;
+    }
+    .Social{
+        align-items: center;
+    }
+}
+.Logo-Footer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1rem;
+}
+
+.CTA{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    gap: 2rem;
+    /* justify-content: center; */
+    align-items: flex-end;
+}

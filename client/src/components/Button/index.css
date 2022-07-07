@@ -1,0 +1,14 @@
+.btn-main{
+    outline: none;
+    background: transparent;
+    color: var(--gray1);
+    border: 2px solid var(--gray1);
+    padding: 4% 5%;
+    width: 260px;
+    border-radius: 30px;
+    transition: ease-in-out 0.52s background-color;
+}
+.btn-main:hover{
+    background-color: var(--purple-dark);
+    transition: ease-in-out 0.52s background-color;
+}
